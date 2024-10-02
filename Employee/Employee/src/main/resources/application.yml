@@ -1,0 +1,17 @@
+server:
+  port: 8089
+
+spring:
+  application:
+    name: EMPLOYEE-DETAILS
+  datasource:
+    url: jdbc:mysql://localhost:3306/employeedb
+    username: root
+    password: Bapun@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
